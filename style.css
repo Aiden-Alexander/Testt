@@ -16,11 +16,6 @@
             width:100px;
         }
 
-        .timeline {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-        }
 
         #timeline-ite {flex-basis: 30%;
         text-align: center;
@@ -32,25 +27,32 @@
     }
 
         .timeline-item {
+            background-color: #e74c3c;
             flex-basis: 30%;
             text-align: center;
             padding: 15px;
             margin: 10px;
-            background-color: #3498db;
-            color: #fff;
-            border-radius: 5px;
+            
         }
 
-        .timeline-item:nth-child(2n) {
+        .timeline-i {
             background-color: #e74c3c;
+            flex-basis: 30%;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
         }
 
-        .timeline-item:nth-child(3n) {
+        .timeline-it {
             background-color: #27ae60;
+            flex-basis: 30%;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
         }
 
         .timeline-item:nth-child(4n) {
-            background-color: #f39c12;
+            background-color: #12f325;
         }
 
         .timeline-item:nth-child(5n) {
@@ -73,4 +75,34 @@
             background-color: #333;
             color: #fff;
         }
+
+        .header {
+           color:#e74c3c;
+            font-size: 40px;
+            font-family: fantasy;
+            text-align: center;
+        }
+        .hover-color-change {
+            color: red;
+            transition: color 0.3s;
+            font-size: 40px;
+            font-family: fantasy;
+            text-align: center;
+          }
+        
+          .hover-color-change:hover {
+            color: skyblue;
+          }
+          .I {
+            font-size: 20px;
+            font-family: fantasy;
+            text-align: center;
+          }
+          footer {
+            font-size: 60px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+
+
+          }
     
