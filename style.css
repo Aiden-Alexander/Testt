@@ -13,9 +13,11 @@
             padding: 10px;
         }
         img {
-            width:100px;
+            width:300px;
         }
-
+        h2 {
+            font-size: 18px;
+        }
 
         #timeline-ite {flex-basis: 30%;
         text-align: center;
@@ -94,9 +96,9 @@
             color: skyblue;
           }
           .I {
-            font-size: 20px;
+            font-size: 10px;
             font-family: fantasy;
-            text-align: center;
+            
           }
           footer {
             font-size: 60px;
